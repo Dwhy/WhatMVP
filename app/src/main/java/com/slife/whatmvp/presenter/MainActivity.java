@@ -34,7 +34,6 @@ public class MainActivity extends ActivityPresenterImpl<DataListView> implements
         }else{
             addData();
         }
-        Log.i("mainactivity","test");
     }
 
     @Override
