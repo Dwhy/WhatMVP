@@ -38,7 +38,7 @@ public class MainActivity extends ActivityPresenterImpl<DataListView> implements
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        mView.toast(position);
+        mView.toast(position+1);
     }
 
     private void newData(){
